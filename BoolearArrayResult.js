@@ -29,7 +29,7 @@ function solution(numbers, left, right) {
             if(result == numbers[i])
                 bool = true
         }
-        newArr.push(bool)
+        newArr.push(bool);
     }
-    return newArr
+    return newArr;
 }
